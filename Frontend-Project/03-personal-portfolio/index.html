@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ganga Mahesh - Basic HTML Website</title>
+    <!--SEO Meta data-->
+    <meta
+      name="description"
+      content="Single Page CV of Ganga Mahesh, a Software Engineer."
+    />
+    <meta
+      name="keywords"
+      content="Frontend Developer, HTML, CSS, JavaScript, Resume, Web Development"
+    />
+    <meta name="author" content="Ganga Mahesh" />
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Ganga Mahesh - Software Engineer" />
+    <meta
+      property="og:description"
+      content="Basic HTML Website of Ganga Mahesh, a Software Engineer."
+    />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/duidrgg1k/image/upload/v1725421776/male-technologist_n0fbey.png"
+    />
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../assets/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../assets/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1><span class="span-text">G</span>M.</h1>
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./articles.html">Articles</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="toggle-theme" onclick="toggleTheme()">
+        <svg id="sun_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+
+        <svg id="moon_icon" style="display: none;" xmlns=" http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line>
+          <line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+
+      </button>
+    </header>
+
+    <main>
+      <section class="intro">
+        <h1>Software Engineer</h1>
+        <p>Html only with proper layout, with simple styling</p>
+      </section>
+      <div class="flex-wrapper">
+        <section class="projects">
+          <h2>Projects</h2>
+          <ul>
+            <li>HTML Only portfolio</li>
+            <li>Calculator</li>
+            <li>Quiz App</li>
+            <li>Guess the Numbers</li>
+          </ul>
+        </section>
+        <section class="work-experience">
+          <h2>Work Experience</h2>
+          <article>
+            <h3>roadmap.sh</h3>
+            <p>Solving problems for frontend projects</p>
+            <a href="http://github.com/Gangamahesh-06"
+              >Visit my GitHub Profile</a
+            >
+          </article>
+          <article>
+            <h3>openSource Work</h3>
+            <p>Contributed to 50 open-source projects.</p>
+            <a href="http://github.com/Gangamahesh-06"
+              >Visit my GitHub Profile</a
+            >
+          </article>
+        </section>
+        <section class="education">
+          <h2>Education</h2>
+          <p>
+            Undergraduate in Computer Science, studies included the following
+          </p>
+          <ul>
+            <li>Programming Languages: C, C++, Java, Python, JavaScript</li>
+            <li>
+              Data Structures & Algorithms (DSA): Arrays, Linked Lists, Stacks,
+              Queues, Trees, Graphs, Sorting, Searching
+            </li>
+            <li>
+              Computer Organization & Architecture: CPU, memory, cache,
+              pipelines, microprocessors
+            </li>
+            <li>
+              Operating Systems: Process management, scheduling, deadlocks, file
+              systems, memory management
+            </li>
+            <li>
+              Database Management Systems (DBMS): SQL, normalization,
+              transactions, indexing, ER diagrams
+            </li>
+            <li>
+              Computer Networks: TCP/IP, routing, DNS, firewalls, network
+              security
+            </li>
+            <li>
+              Theory of Computation: Automata, grammar, Turing machines,
+              complexity
+            </li>
+          </ul>
+        </section>
+      </div>
+      <aside class="review">
+        <h2>Feedback</h2>
+        <div class="feedback">
+          <blockquote>
+            <p>
+              John Doe was a brilliant student; always stood out with his
+              assignments.
+            </p>
+            <footer>Jane Doe, Assistant Professor</footer>
+          </blockquote>
+          <blockquote>
+            <p>
+              John Doe was a brilliant student; always stood out with his
+              assignments.
+            </p>
+            <footer>Jane Doe, Assistant Professor</footer>
+          </blockquote>
+          <blockquote>
+            <p>
+              John Doe was a brilliant student; always stood out with his
+              assignments.
+            </p>
+            <footer>Jane Doe, Assistant Professor</footer>
+          </blockquote>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; all right reserved 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
