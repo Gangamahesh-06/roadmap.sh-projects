@@ -8,7 +8,8 @@ The goal of this project is to not only help you practice your HTML and CSS but 
 
 # ScreenShot
 
-![alt Text](datepicker.png)
+![alt Text](07-Accessible-Form-UI.png)
+
 
 
 # Accessibility Guidelines
